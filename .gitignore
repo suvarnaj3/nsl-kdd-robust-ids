@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.directory
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Nn]esktop.ini
+
+# Data (Ignore large raw and processed datasets, keep folder structure)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained Models and Checkpoints
+models/*
+!models/.gitkeep
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Results & Logs (Optional logs / temporary figures)
+*.log
